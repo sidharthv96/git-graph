@@ -1,0 +1,24 @@
+{
+  "name": "git-graph",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@octokit/plugin-paginate-rest": "^2.2.0",
+    "@octokit/plugin-retry": "^3.0.1",
+    "@octokit/rest": "^17.6.0",
+    "pg": "^8.0.3",
+    "reflect-metadata": "^0.1.13",
+    "sqlite3": "^4.2.0",
+    "typeorm": "^0.2.24"
+  },
+  "scripts": {
+    "dev": "tsnd --respawn src/index.ts",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^13.13.4",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typescript": "^3.8.3"
+  }
+}
